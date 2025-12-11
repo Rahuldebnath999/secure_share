@@ -1,0 +1,18 @@
+// Activate the virtual environment(in the vsc terminal)
+
+cd /Users/rahuldebnath/Desktop/secure_share
+source .venv/bin/activate
+
+
+//You should see (.venv) at the start of the prompt.
+
+//Start the Django server
+//From the same terminal:
+
+python3 manage.py runserver 8001
+
+//Now open browser and search:
+
+http://127.0.0.1:8001/
+
+

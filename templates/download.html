@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Download file</h1>
+<p>Expires at: {{ expires }}</p>
+<form method="post">
+    {% csrf_token %}
+    <input type="password" name="password" placeholder="Password you received" required>
+    <button type="submit">Decrypt & download</button>
+</form>
+{% endblock %}
